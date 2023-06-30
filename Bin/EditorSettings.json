@@ -1,0 +1,74 @@
+{
+    "Version": 11,
+    "Theme": 0,
+    "CamMoveSpeed": 12.356887817382813,
+    "CamScrollSpeed": 30.700000762939453,
+    "CamTurnSpeed": 21.700000762939453,
+    "ClearColor": {
+        "r": 0.45098036527633667,
+        "g": 0.45098036527633667,
+        "b": 0.45098036527633667,
+        "a": 1.0
+    },
+    "OutlineColor": {
+        "r": 1.0,
+        "g": 0.5,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "MainColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "SecondaryColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "TextColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Snap Settings": {
+        "Move": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "Rotate": [
+            45.0,
+            45.0,
+            45.0
+        ],
+        "Scale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "Snap Toggle": false
+    },
+    "Debug Drawer Toggle": false,
+    "Open Windows": [
+        12,
+        4,
+        3,
+        1,
+        0
+    ],
+    "IP": "127.0.0.1",
+    "Username": "",
+    "ChatColor": "FFFFFF",
+    "DebugDrawerSettings": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ]
+}

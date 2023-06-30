@@ -1,0 +1,165 @@
+{
+    "GameObjects": [
+        {
+            "Name": "Light",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    1.4380418062210083,
+                    -0.6193188428878784
+                ],
+                "Rot": [
+                    66.69999694824219,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Light",
+                    "Version": 2,
+                    "Type": 0,
+                    "Shadows": 0,
+                    "Intensity": 1.0,
+                    "Range": 10.0,
+                    "Tex": "studio_cubemap",
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Floor",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    20.0,
+                    1.0,
+                    20.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 7,
+                    "Model": "Plane",
+                    "Materials": [
+                        "DefaultMat"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0,
+                    "Layer": 5
+                }
+            ]
+        },
+        {
+            "Name": "ComponentDemo",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.16777300834655762,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    0.009999999776482582,
+                    0.009999999776482582,
+                    0.009999999776482582
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Component Demo"
+                },
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 7,
+                    "Model": "Cube",
+                    "Materials": [
+                        "DefaultMat"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0,
+                    "Layer": 5
+                }
+            ]
+        },
+        {
+            "Name": "Camera",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    3.200000047683716,
+                    5.199999809265137
+                ],
+                "Rot": [
+                    34.0,
+                    180.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Camera",
+                    "Version": 3,
+                    "FoV": 90.0,
+                    "NearPlane": 1.0,
+                    "FarPlane": 8000.0
+                }
+            ]
+        }
+    ]
+}
