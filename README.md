@@ -5,3 +5,5 @@ The editor and core GameObject/Component system and workflow is heavily based on
 The engine is made in C++ and uses DirectX11.
 Disclaimer: It's not perfect, but it's usable and we actually managed to make a really good game in it (https://elingranath.itch.io/shells-kitchen)! 
 If anyone is interested in improving it (mainly struggling with performance in large open worlds), that would be cool! c:
+
+IMPORTANT! Make sure to unzip the PhysX zip file in the Bin/ folder.
