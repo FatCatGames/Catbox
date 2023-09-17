@@ -150,7 +150,7 @@ private:
 	std::shared_ptr<PixelShader> myBackgroundPS;
 	std::shared_ptr<PixelShader> myGammaCorrectionPS;
 	std::shared_ptr<PixelShader> myOutlinePS;
-	std::shared_ptr<PixelShader> myBlurShadowsPS;
+	//std::shared_ptr<PixelShader> myBlurShadowsPS;
 
 	std::shared_ptr<Texture> myIntermediateTexture;
 	std::shared_ptr<Texture> myEnviormentTexture;

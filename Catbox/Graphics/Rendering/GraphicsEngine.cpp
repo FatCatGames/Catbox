@@ -255,12 +255,12 @@ void GraphicsEngine::CreateShaders()
 	psFile.close();
 	assert(!FAILED(result) && "Loading background pixel shader failed!");
 
-	myBlurShadowsPS = CreateAsset<PixelShader>("Resources/BuiltIn/Shaders/GaussianBlurShadowsPS.sh");
-	psFile.open("Resources/BuiltIn/Shaders/GaussianBlurShadowsPS.cso", ios::binary);
-	psData = { std::istreambuf_iterator<char>(psFile), istreambuf_iterator<char>() };
-	result = DX11::Device->CreatePixelShader(psData.data(), psData.size(), nullptr, &myBlurShadowsPS->pixelShader);
-	psFile.close();
-	assert(!FAILED(result) && "Loading Gaussian Blur Shadows pixel shader failed!");
+	//myBlurShadowsPS = CreateAsset<PixelShader>("Resources/BuiltIn/Shaders/GaussianBlurShadowsPS.sh");
+	//psFile.open("Resources/BuiltIn/Shaders/GaussianBlurShadowsPS.cso", ios::binary);
+	//psData = { std::istreambuf_iterator<char>(psFile), istreambuf_iterator<char>() };
+	//result = DX11::Device->CreatePixelShader(psData.data(), psData.size(), nullptr, &myBlurShadowsPS->pixelShader);
+	//psFile.close();
+	//assert(!FAILED(result) && "Loading Gaussian Blur Shadows pixel shader failed!");
 
 
 
